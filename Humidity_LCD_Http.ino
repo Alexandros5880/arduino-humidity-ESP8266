@@ -8,8 +8,8 @@ void connectWIFI();
 // Send http request function
 void sentRequest(float);
 ESP8266WiFiMulti WiFiMulti;
-const char* ssid = "TP-LINK_3E50F4";
-const char* password = "16326323";
+const char* ssid = "*********";
+const char* password = "**********";
 
 
 void setup() {
