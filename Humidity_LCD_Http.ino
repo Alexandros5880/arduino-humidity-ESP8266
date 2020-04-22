@@ -57,7 +57,7 @@ void connectWIFI() {
 
 // Send Request
 void sentHTTP(String data) {
-  HTTPClient http;
+  HTTPClient http;                                                                                                                   // SHA-1 Fingerprint                          
   http.begin("https://test-5880-developer-edition.eu31.force.com/sensordata/services/apexrest/Arduino_Humanity__c?humanity=" + data, "CA 6B E2 3B A5 B3 54 2D 5A 61 08 5C A7 65 D4 EA 12 B6 64 54");
   // start connection and send HTTP header
   int httpCode = http.GET();
